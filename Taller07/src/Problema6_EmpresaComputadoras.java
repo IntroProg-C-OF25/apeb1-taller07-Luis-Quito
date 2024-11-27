@@ -38,6 +38,57 @@ public class Problema6_EmpresaComputadoras {
             contadorVentas++;
         }
         System.out.println("\n" + reporte);
-        System.out.printf("Total acumulado de ventas: $%.2f\n", totalVentas);
+        System.out.printf("Total de ventas: $%.2f\n", totalVentas);
     }
 }
+/***
+ * run:
+ * Ingrese los datos de las ventas (7 ventas):
+ * 
+ * Venta: 1
+ * Ingrese el nombre del cliente: Jorge
+ * Ingrese el costo de la computadora: 860
+ * Ingrese el tipo de cliente (1, 2, otro (3)): 1
+ * 
+ * Venta: 2
+ * Ingrese el nombre del cliente: Ivan
+ * Ingrese el costo de la computadora: 987
+ * Ingrese el tipo de cliente (1, 2, otro (3)): 2
+ * 
+ * Venta: 3
+ * Ingrese el nombre del cliente: Arelis
+ * Ingrese el costo de la computadora: 943
+ * Ingrese el tipo de cliente (1, 2, otro (3)): 2
+ * 
+ * Venta: 4
+ * Ingrese el nombre del cliente: Danna
+ * Ingrese el costo de la computadora: 697
+ * Ingrese el tipo de cliente (1, 2, otro (3)): 1
+ * 
+ * Venta: 5
+ * Ingrese el nombre del cliente: Daniel
+ * Ingrese el costo de la computadora: 760
+ * Ingrese el tipo de cliente (1, 2, otro (3)): 3
+ * 
+ * Venta: 6
+ * Ingrese el nombre del cliente: Valeria
+ * Ingrese el costo de la computadora: 1230
+ * Ingrese el tipo de cliente (1, 2, otro (3)): 3
+ * 
+ * Venta: 7
+ * Ingrese el nombre del cliente: Ricardo
+ * Ingrese el costo de la computadora: 579
+ * Ingrese el tipo de cliente (1, 2, otro (3)): 1
+ * 
+ * Reporte de Ventas:
+ * Cliente Jorge (Tipo 1): Costo original $860,00, Descuento $86,00, Total a pagar $774,00
+ * Cliente  (Tipo 2): Costo original $987,00, Descuento $197,40, Total a pagar $789,60
+ * Cliente  (Tipo 2): Costo original $943,00, Descuento $188,60, Total a pagar $754,40
+ * Cliente  (Tipo 1): Costo original $697,00, Descuento $69,70, Total a pagar $627,30
+ * Cliente  (Tipo 3): Costo original $760,00, Descuento $0,00, Total a pagar $760,00
+ * Cliente  (Tipo 3): Costo original $1230,00, Descuento $0,00, Total a pagar $1230,00
+ * Cliente  (Tipo 1): Costo original $579,00, Descuento $57,90, Total a pagar $521,10
+ * 
+ * Total de ventas: $5456,40
+ * BUILD SUCCESSFUL (total time: 1 minute 40 seconds)
+ */
